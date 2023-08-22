@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #6f55f2;
+  --heading-color: #132742;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  padding: 50px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  text-decoration: none;
+  color: unset;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: unset;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+link {
+  text-decoration: none;
+  color: unset;
+}
+
+link:hover {
+  color: unset;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.section_title {
+  color: var(--heading-color);
+  font-weight: 700px;
+}
+
+.register-btn {
+  background: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-name);
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  padding: 7px 15px;
 }
