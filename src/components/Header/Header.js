@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/img/palestine-isd-2.webp";
 import "./Header.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 function Header() {
   const nav_titles = [
     {
@@ -35,8 +35,12 @@ function Header() {
 
           <div className="navigation">
             <ul className="menu">
-              {nav_titles.map((item) => (
-                <li className="nav_item"><Link to={item.path}>{item.display}</Link></li>
+              {nav_titles.map((item, id) => (
+                <li className="nav_item">
+                  <Link key={id} to={item.path}>
+                    {item.display}
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>

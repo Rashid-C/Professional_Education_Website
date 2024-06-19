@@ -56,7 +56,9 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link onClick={handleClick} to='/support'>Support us</Link>
+                <Link onClick={handleClick} to="/support">
+                  Support us
+                </Link>
               </li>
             </ul>
           </div>
