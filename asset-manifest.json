@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Professional_Education_Website/static/css/main.f13fc734.css",
+    "main.js": "/Professional_Education_Website/static/js/main.7fef0d3a.js",
+    "static/media/tc.png": "/Professional_Education_Website/static/media/tc.66e132f330fd312fe176.png",
+    "static/media/meta.jpeg": "/Professional_Education_Website/static/media/meta.7e3f88a1b4640d37c922.jpeg",
+    "static/media/footer.png": "/Professional_Education_Website/static/media/footer.c784afd004b3e6047ce1.png",
+    "static/media/anu.jpg": "/Professional_Education_Website/static/media/anu.6cc23bfb686416a38d26.jpg",
+    "static/media/sd.png": "/Professional_Education_Website/static/media/sd.0897abc962b9843e2ae7.png",
+    "static/media/palestine-isd-2.webp": "/Professional_Education_Website/static/media/palestine-isd-2.805ae6d518369a9f9229.webp",
+    "static/media/dg.png": "/Professional_Education_Website/static/media/dg.9624ed4cc0ac7f4e8024.png",
+    "static/media/ai.png": "/Professional_Education_Website/static/media/ai.0b1f4f6f49e69c33509f.png",
+    "index.html": "/Professional_Education_Website/index.html",
+    "main.f13fc734.css.map": "/Professional_Education_Website/static/css/main.f13fc734.css.map",
+    "main.7fef0d3a.js.map": "/Professional_Education_Website/static/js/main.7fef0d3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f13fc734.css",
+    "static/js/main.7fef0d3a.js"
+  ]
+}
